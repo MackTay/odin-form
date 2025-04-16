@@ -42,4 +42,28 @@
 
 .lightning {
     height: 100vh;
+    width: max(100vw * 0.35, 300px);
+}
+
+.banner {
+    display: flex;
+    gap: 1rem;
+    font-family: 'norse bold';
+    color: whitesmoke;
+    font-size: 4rem;
+    background: hsla(59, 63%, 96%, 0.2);
+    position: absolute;
+    top: 10rem;
+    width: max(100vw * 0.35, 300px);
+    justify-content: center;
+}
+
+.logo {
+    height: 6rem;
+    display: inline;
+    margin: 1rem 0;
+}
+
+.banner-text {
+    margin: 1rem 0;
 }
