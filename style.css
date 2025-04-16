@@ -1,5 +1,9 @@
 /* style.css */
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -42,7 +46,11 @@
 
 .lightning {
     height: 100vh;
-    width: max(100vw * 0.35, 300px);
+    width: max(100vw * 0.4, 300px);
+}
+
+.img-container {
+    position: relative;
 }
 
 .banner {
@@ -54,7 +62,7 @@
     background: hsla(59, 63%, 96%, 0.2);
     position: absolute;
     top: 10rem;
-    width: max(100vw * 0.35, 300px);
+    width: 100%;
     justify-content: center;
 }
 
@@ -75,4 +83,13 @@
 .form-container {
     display: flex;
     flex-direction: row;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.descriptor {
+    max-inline-size: 70%;
+    padding: 7rem 2rem 2rem 2rem;
 }
