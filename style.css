@@ -67,3 +67,12 @@
 .banner-text {
     margin: 1rem 0;
 }
+
+.top-container {
+    display: flex;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+}
