@@ -87,7 +87,8 @@ body {
 }
 
 .descriptor,
-.cta-header {
+.cta-header,
+.login {
   font-weight: bold;
 }
 
@@ -129,7 +130,7 @@ input:invalid {
 }
 
 input:focus {
-  border: 2px solid #9b42d6;
+  border: 1px solid #9b42d6;
   background-color: #f0e9f2;
   outline: none;
 }
@@ -155,3 +156,10 @@ input {
   border-radius: 6px;
 }
 
+.login {
+  margin: 1rem auto 0rem 5rem;
+}
+
+a {
+  color: #9b42d6;
+}

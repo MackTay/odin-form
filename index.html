@@ -28,7 +28,7 @@
         <br>
         <p>You <span class="italic">know</span> you want to.</p>
     </div>
-    <div>
+    <div class="cta-div">
         <span class="cta-header">Let's do this!</span>
         <div class="form-container">
             <form id="my-form">
@@ -49,17 +49,20 @@
                     <input type="tel" id="phone" name="user_tel" placeholder="460-897-2134" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                 </div>
                 <div class="form-item">
-                    <label for="pass">PASSWORD (6-16 characters)</label>
+                    <label for="pass"><span aria-label="required">*</span> PASSWORD (6-16 characters)</label>
                     <input type="password" id="pass" name="user_pass" placeholder="tOpb1nz$23" minlength="6" maxlength="16" required>
                 </div>
                 <div class="form-item">
-                    <label for="pass-confirm">CONFIRM PASSWORD</label>
+                    <label for="pass-confirm"><span aria-label="required">*</span> CONFIRM PASSWORD</label>
                     <input type="password" id="pass-confirm" name="user_pass_confirm" placeholder="Re-type password" minlength="6" maxlength="16" required>
                 </div>
             </form>
         </div>
-        <div class="button-div">
+        <div>
             <button type="submit" form="my-form">Create Account</button>
+        </div>
+        <div class="login">
+            <span>Already have an account? <a href="https://www.theodinproject.com" target="_blank" rel="noopener noreferrer">Log in</a></span>
         </div>
     </div>
     
