@@ -119,3 +119,7 @@ form {
 label {
   display: block;
 }
+
+input:invalid {
+  border: red solid 2px;
+}
