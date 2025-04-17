@@ -139,6 +139,11 @@ button {
   box-shadow: 6px 6px 10px 0px lightgray;
 }
 
+button:active {
+  transform: scale(0.98);
+  background-color: #DFC2F2;
+}
+
 input {
   border: 1px solid #f0e9f2;
   border-radius: 6px;
