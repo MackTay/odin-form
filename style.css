@@ -94,6 +94,7 @@ body {
 .descriptor {
   padding: 6rem 8rem 2rem 5rem;
   background: #f0e9f2;
+  box-shadow: 0px 2px 5px 0px lightgray;
 }
 
 .cta-header {
@@ -113,10 +114,6 @@ form {
   box-shadow: 0px 6px 5px 0px lightgray;
 }
 
-.cta-div {
-  box-shadow: 0px -2px 4px 0px lightgray;
-}
-
 .form-item {
   flex: 0 0 50%;
   margin-top: 1rem;
@@ -130,3 +127,8 @@ label {
 input:invalid {
   border: red solid 2px;
 }
+
+button {
+  margin: 2.5rem auto auto 5rem;
+}
+
