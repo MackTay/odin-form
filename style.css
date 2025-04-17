@@ -128,6 +128,12 @@ input:invalid {
   border: red solid 2px;
 }
 
+input:focus {
+  border: 2px solid #9b42d6;
+  background-color: #f0e9f2;
+  outline: none;
+}
+
 button {
   margin: 2.5rem auto auto 5rem;
   padding: 0.5rem 3rem;
