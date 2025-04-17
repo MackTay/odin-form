@@ -110,7 +110,11 @@ form {
 .form-container {
   display: flex;
   flex-direction: column;
-  box-shadow: 12px 12px 2px 1px #f0e9f2;
+  box-shadow: 0px 6px 5px 0px lightgray;
+}
+
+.cta-div {
+  box-shadow: 0px -2px 4px 0px lightgray;
 }
 
 .form-item {
