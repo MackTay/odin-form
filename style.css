@@ -46,7 +46,7 @@ body {
 
 .lightning {
   height: 100vh;
-  width: max(100vw * 0.4, 300px);
+  width: max(100vw * 0.35, 300px);
 }
 
 .img-container {
