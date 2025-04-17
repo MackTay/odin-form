@@ -105,7 +105,9 @@ body {
   margin: 1rem auto 2rem 5rem;
 }
 
-.form-container {
+form {
   display: flex;
   flex-wrap: wrap;
+  margin: 1rem 8rem 2rem 5rem;
 }
+
