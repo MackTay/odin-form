@@ -130,5 +130,17 @@ input:invalid {
 
 button {
   margin: 2.5rem auto auto 5rem;
+  padding: 0.5rem 3rem;
+  background-color: #9b42d6;
+  color: white;
+  font-weight: 850;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 6px 6px 10px 0px lightgray;
+}
+
+input {
+  border: 1px solid #f0e9f2;
+  border-radius: 6px;
 }
 
