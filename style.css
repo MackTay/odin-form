@@ -51,6 +51,7 @@ body {
 
 .img-container {
     position: relative;
+    flex: 1 0 auto;
 }
 
 .banner {
@@ -90,8 +91,7 @@ body {
 }
 
 .descriptor {
-    max-inline-size: 75%;
-    padding: 7rem 4rem 4rem 6rem;
+    padding: 7rem 8rem 4rem 6rem;
     font-weight: bold;
-    background: lightgray;
+    background: #f0e9f2;
 }
