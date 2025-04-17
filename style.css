@@ -81,10 +81,6 @@ body {
   display: flex;
 }
 
-.form-container {
-  display: flex;
-  flex-direction: column;
-}
 
 .italic {
   font-style: italic;
@@ -111,6 +107,12 @@ form {
   margin: 0rem 8rem 2rem 5rem;
 }
 
+.form-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 12px 12px 2px 1px #f0e9f2;
+}
+
 .form-item {
   flex: 0 0 50%;
   margin-top: 1rem;
@@ -118,6 +120,7 @@ form {
 
 label {
   display: block;
+  font-size: 0.7rem;
 }
 
 input:invalid {
