@@ -109,10 +109,14 @@ form {
   margin: 0rem 8rem 2rem 5rem;
 }
 
-.form-container {
+.main-content {
   display: flex;
   flex-direction: column;
+}
+
+.form-container {
   box-shadow: 0px 6px 5px 0px lightgray;
+  padding-bottom: 1px;
 }
 
 .form-item {
@@ -158,6 +162,10 @@ input {
 
 .login {
   margin: 1rem auto 0rem 5rem;
+}
+
+.submit-div {
+  box-shadow: none;
 }
 
 a {
